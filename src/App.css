@@ -1,0 +1,55 @@
+:root {
+  --background-color: #212121;
+  --foreground-color: #2e2e2e;
+  --text-color: #fff;
+  --highlight-color: grey;
+  --input-background-color: #444;
+  --input-text-color: #fff;
+  --input-border-radius: 10px;
+  --margin-standard: 50px;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: sans-serif;
+}
+
+.app-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: var(--margin-standard);
+  border-radius: 8px;
+  display: flex;
+  gap: var(--margin-standard);
+}
+
+.left-panel {
+  flex: 1; 
+  background-color: var(--foreground-color);
+  padding: var(--margin-standard); 
+  border-radius: var(--input-border-radius); 
+}
+
+.right-panel{
+  flex: 2;
+  background-color: var(--foreground-color);
+  padding: var(--margin-standard); 
+  border-radius: var(--input-border-radius); 
+}
+
+
+.app-title, .section-title, .list-title, .form-title {
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.search-bar, .form-input, .react-datepicker__input-container input {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--input-background-color);
+  color: var(--input-text-color);
+  border: none;
+  border-radius: var(--input-border-radius);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}

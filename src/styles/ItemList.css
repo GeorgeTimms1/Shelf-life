@@ -1,0 +1,23 @@
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+  overflow-y: auto;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--input-background-color);
+  color: var(--text-color);
+  padding: 10px;
+  border-radius: var(--input-border-radius);
+  transition: background-color 0.3s ease;
+}
+
+.item-row:hover {
+  background-color: #333;
+}

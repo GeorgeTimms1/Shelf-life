@@ -1,0 +1,58 @@
+.form-wrapper {
+  border-radius: var(--input-border-radius);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--foreground-color);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  color: #fff;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+.submit-button {
+  background-color: #4f6c32;
+  color: var(--text-color);
+  border: none;
+  border-radius: var(--input-border-radius);
+  padding: 10px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker,.react-datepicker__header {
+  background-color: var(--foreground-color);
+  border: var(--input-border-radius);
+}
+
+.react-datepicker__day, .react-datepicker__day-name,.react-datepicker__header .react-datepicker__current-month
+{
+  color: var(--text-color);
+  border: var(--input-border-radius);
+}
+.react-datepicker__day--selected{
+  background-color: var(--background-color);
+}
+
+.react-datepicker__input-container{
+  color: var(--input-text-color);
+}
+
+.react-datepicker__day:hover {
+  background-color: #4f6c32; 
+}
+
